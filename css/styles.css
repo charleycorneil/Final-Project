@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+@font-face {
+  font-family: TimesCG;
+  src: url("TimesCG.woff");
+}
+
+body {
+  background-color: #91e79175;
+  font-family: TimesCG;
+}
+
+h1 {
+  background-color: #f08080;
+  color: black;
+  text-align: left;
+  padding: 16px;
+  font-size: 50px;
+  width: 100%;
+}
+
+#login-section {
+  padding: 16px;
+  text-align: left;
+  margin: 0;
+  position: relative;
+  left: 0;
+  width: 300px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  justify-self: flex-start;
+  gap: 8px;
+  background-color: transparent;
+  box-shadow: none;
+  font-size: 25px;
+}
+
+label {
+  text-align: left;
+  min-width: 100px;
+  font-weight: bold;
+}
+
+input {
+  flex: 1;
+  padding: 4px;
+  border: 1px solid black;
+  font-size: 15px;
+  margin-left: 20px;
+  border-radius: 3px;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #4f414f;
+}
+
+button {
+  width: fit-content;
+  padding: 2px 8px;
+  background-color: #4f414f;
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  font-family: TimesCG;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #373037;
+}
+
+#dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+#add-task-btn {
+  margin: 16px 0;
+}
+
+.task {
+  border: 1px solid black;
+  padding: 8px;
+  margin-bottom: 16px;
+  background-color: white;
+  margin-left: 20px;
+  width: 300px;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+.task h4 {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.task h4.done {
+  text-decoration: line-through;
+}
+
+.task button {
+  margin-right: 8px;
+}
+
+.task select {
+  margin-top: 8px;
+}
+
+#add-task-btn {
+  font-size: 18px;
+  padding: 10px 20px;
+  position: relative;
+  right: -20px;
+  top: -20px;
+  background-color: #4f414f;
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#user-display {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
